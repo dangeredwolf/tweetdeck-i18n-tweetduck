@@ -6,7 +6,7 @@ export default {
 	output: {
 		file: "./tweetduck-i18n/I18nModule.js",
 		format: "es",
-		sourcemap: true,
+		// sourcemap: true,
 		banner: `/**\n* tweetdeck-i18n ${require("./package.json").version}\n* @license MIT\n* https://github.com/dangeredwolf/tweetdeck-i18n \n**/`,
 		hoistTransitiveImports: true
 	},
